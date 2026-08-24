@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jin Pansirigorn — Business Analytics portfolio featuring machine learning, SQL, statistical analysis, and AI strategy.">
+  <title>Jin Pansirigorn | Business Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav shell">
+      <a class="brand" href="#top">JP<span>.</span></a>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/jinpansirigorn" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="eyebrow"><span></span> MS Business Analytics · USC Marshall</div>
+      <h1>I turn complex data into<br><em>clear business decisions.</em></h1>
+      <p class="hero-copy">Business analytics portfolio spanning predictive modeling, SQL, statistical analysis, customer insights, and AI-enabled strategy.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#work">Explore selected work ↓</a>
+        <a class="button ghost" href="https://github.com/jinpansirigorn" target="_blank" rel="noreferrer">View GitHub ↗</a>
+      </div>
+      <div class="capability-strip">
+        <span>Python</span><span>SQL</span><span>Machine Learning</span><span>Statistical Analysis</span><span>Data Visualization</span><span>Business Strategy</span>
+      </div>
+    </section>
+
+    <section id="work" class="work shell">
+      <div class="section-head">
+        <div><p class="kicker">SELECTED WORK</p><h2>Analytics with a business point of view.</h2></div>
+        <p>Three flagship case studies show how I move from messy questions and data to evidence, insight, and action.</p>
+      </div>
+
+      <article class="project project-featured">
+        <div class="project-copy">
+          <div class="project-number">01 / PREDICTIVE ANALYTICS</div>
+          <h3>Insurance Risk Analytics</h3>
+          <p class="project-lead">Predicting claim probability and expected loss to support more informed, risk-based insurance pricing.</p>
+          <div class="metrics">
+            <div><strong>39,928</strong><span>training policies</span></div>
+            <div><strong>0.796</strong><span>ROC-AUC</span></div>
+            <div><strong>2.8%</strong><span>lower LC MSE vs. baseline</span></div>
+          </div>
+          <div class="insight"><b>Business question</b><span>How can an insurer identify claim risk while keeping model decisions interpretable?</span></div>
+          <div class="tags"><span>Python</span><span>LightGBM</span><span>Tweedie</span><span>SHAP</span><span>Cross-validation</span></div>
+        </div>
+        <div class="project-visual insurance-visual">
+          <img src="assets/insurance-project.png" alt="Insurance loss analytics project poster">
+          <div class="visual-label">MODEL STORY <span>→</span> frequency × severity + explainability</div>
+        </div>
+      </article>
+
+      <article class="project project-sql">
+        <div class="project-copy">
+          <div class="project-number">02 / SQL + BUSINESS ANALYTICS</div>
+          <h3>TuneWorks Entertainment Analytics</h3>
+          <p class="project-lead">Using relational data to uncover customer behavior, agent performance, revenue patterns, and operational opportunities.</p>
+          <div class="insight gold"><b>Unexpected finding</b><span>Recorded music preferences often failed to match what customers actually booked — raising a better question about what truly drives purchase behavior.</span></div>
+          <div class="tags"><span>SQL</span><span>CTEs</span><span>Window Functions</span><span>Joins</span><span>Customer Analytics</span></div>
+        </div>
+        <div class="project-visual sql-visual" aria-label="Stylized SQL analytics dashboard">
+          <div class="mini-top"><span>Customer value</span><span>Agent performance</span><span>Revenue</span></div>
+          <div class="chart-card">
+            <p>Customer behavior</p>
+            <div class="bars"><i style="height:42%"></i><i style="height:68%"></i><i style="height:54%"></i><i style="height:91%"></i><i style="height:62%"></i><i style="height:76%"></i></div>
+          </div>
+          <div class="sql-stat"><strong>SQL</strong><span>multi-table analysis</span></div>
+          <div class="sql-code">LAG( ) OVER<br>PARTITION BY customer_id</div>
+        </div>
+      </article>
+
+      <article class="project project-health">
+        <div class="project-copy">
+          <div class="project-number">03 / STATISTICAL ANALYTICS</div>
+          <h3>Healthcare Readmission Analytics</h3>
+          <p class="project-lead">Identifying patient risk patterns with statistical testing, bootstrapping, dimensionality reduction, and segmentation.</p>
+          <div class="metrics compact">
+            <div><strong>22.1%</strong><span>high-risk readmission</span></div>
+            <div><strong>14.5%</strong><span>lower-risk readmission</span></div>
+            <div><strong>95% CI</strong><span>13.9–15.6% overall</span></div>
+          </div>
+          <div class="tags"><span>Python</span><span>Hypothesis Testing</span><span>Bootstrap</span><span>PCA</span><span>K-means</span></div>
+        </div>
+        <div class="project-visual health-visual">
+          <div class="risk-title">30-day readmission</div>
+          <div class="risk-row"><span>High risk</span><div><i style="width:88%"></i></div><b>22.1%</b></div>
+          <div class="risk-row"><span>Lower risk</span><div><i style="width:58%"></i></div><b>14.5%</b></div>
+          <div class="cluster-map"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <p>Patient segmentation revealed a distinct higher-readmission cohort.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="more shell">
+      <div class="section-head small"><div><p class="kicker">MORE WORK</p><h2>Strategy, product & applied research.</h2></div></div>
+      <div class="more-grid">
+        <article><span>AI + PLATFORM STRATEGY</span><h3>UNIQLO Fit Platform</h3><p>Designed an AI-enabled multi-sided platform concept around fit intelligence, personalization, network effects, and reduced e-commerce returns.</p><b>AI Strategy · Platform Economics · GTM</b></article>
+        <article><span>REGRESSION + INFERENCE</span><h3>Graduate Earnings Analysis</h3><p>Examined institution-level associations between student composition and long-term graduate earnings using multivariable regression and observational-data reasoning.</p><b>OLS · Inference · Confounding</b></article>
+        <article><span>AI PRODUCT</span><h3>Polaris Career Copilot</h3><p>Developed an AI career-product concept connecting job fit, skill gaps, alumni outreach, and measurable career outcomes.</p><b>User Research · PRD · Product KPIs</b></article>
+        <article><span>ECOSYSTEM STRATEGY</span><h3>Retail AR Ecosystem</h3><p>Analyzed platform moves by Apple, Meta, Snap, and Niantic through network effects, switching costs, multihoming, and ecosystem strategy.</p><b>Competitive Strategy · Research</b></article>
+      </div>
+    </section>
+
+    <section id="about" class="about shell">
+      <div><p class="kicker">ABOUT</p><h2>Business first.<br>Technical when it matters.</h2></div>
+      <div class="about-copy"><p>I'm Jin Pansirigorn, an MS Business Analytics student at USC Marshall. I enjoy work where analytical rigor has to translate into a decision someone can actually use.</p><p>My projects span machine learning, SQL, statistical analysis, customer analytics, and AI strategy — with an emphasis on communicating the “so what,” not just the method.</p></div>
+    </section>
+  </main>
+
+  <footer class="footer shell"><span>Jin Pansirigorn</span><span>Business Analytics Portfolio · 2026</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>

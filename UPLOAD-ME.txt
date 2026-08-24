@@ -1,0 +1,6 @@
+Upload ONLY these items to the root of your GitHub repository:
+- index.html
+- styles.css
+- assets (folder)
+
+GitHub web upload accepts folders when you drag the whole selection into the upload area.

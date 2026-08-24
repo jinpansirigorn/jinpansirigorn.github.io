@@ -1,0 +1,14 @@
+V2 UPDATE
+1. GitHub repo -> Add file -> Upload files.
+2. Drag these FIVE files into the repository root:
+   index.html
+   styles.css
+   case.css
+   insurance.html
+   tuneworks.html
+   healthcare.html
+3. GitHub will warn that index.html/styles.css already exist. That is expected: this update replaces them.
+4. Commit changes.
+5. Wait for the green check / Pages deployment, then hard refresh the website (Command + Shift + R).
+
+The assets folder is NOT required for V2. The broken poster image has been replaced with native web visuals.
